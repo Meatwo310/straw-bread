@@ -1,20 +1,31 @@
 # Straw Bread
 
-Straw Bread is a multi-version, multi-loader Minecraft mod.
+Straw Bread is a small Minecraft mod where Steve's body heat ferments and bakes straw beds into bread overnight.
 
-## Building
+## Features
 
-Build all enabled targets:
+- Waking up from a straw bed drops 2 bread.
+- Try using a straw bed in the Nether and see what happens...
 
-```sh
-./gradlew build
-```
+## Supported Version
 
-Build a specific target:
+The current release target is:
 
-```sh
-./gradlew :26.1.2-fabric:build
-./gradlew :26.1.2-neo:build
-```
+| Minecraft | Loader |
+|-----------|--------|
+| 26.3 Snapshot 3 | Fabric |
 
-Project and MDK maintenance notes live under `docs/`.
+## Installation
+
+Install the jar that matches your Minecraft version and loader into your `mods` folder.
+
+Fabric Loader required.
+
+## Feedback
+
+Please report bugs and compatibility issues on the [issue tracker](https://github.com/Meatwo310/straw-bread/issues).
+
+## License
+
+Straw Bread is available under the [MIT License](LICENSE).
+
