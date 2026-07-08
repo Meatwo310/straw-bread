@@ -1,4 +1,7 @@
 {
+  "mixins": [
+    "strawbread.mixins.json"
+  ],
   "depends": {
     "minecraft": "~26.3-alpha.3"
   }
